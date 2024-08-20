@@ -12,11 +12,11 @@ import streamlit as st
 
 # -----------------------------------------------------------------------------
 # Default configuration
-NUM_SEARCH = 10  # Number of links to parse from Google
+NUM_SEARCH = 20  # Number of links to parse from Google
 SEARCH_TIME_LIMIT = 3  # Max seconds to request website sources before skipping to the next URL
 TOTAL_TIMEOUT = 6  # Overall timeout for all operations
-MAX_CONTENT = 500  # Number of words to add to LLM context for each search result
-LLM_MODEL = 'gpt-3.5-turbo'  # 'gpt-4o'
+MAX_CONTENT = 2000  # Number of words to add to LLM context for each search result
+LLM_MODEL = 'gpt-4o'  # 'gpt-4o'
 # -----------------------------------------------------------------------------
 
 # Set up OpenAI API key
