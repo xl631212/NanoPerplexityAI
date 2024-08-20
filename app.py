@@ -13,8 +13,8 @@ import streamlit as st
 # -----------------------------------------------------------------------------
 # Default configuration
 NUM_SEARCH = 20  # Number of links to parse from Google
-SEARCH_TIME_LIMIT = 15  # Max seconds to request website sources before skipping to the next URL
-TOTAL_TIMEOUT = 39  # Overall timeout for all operations
+SEARCH_TIME_LIMIT = 3  # Max seconds to request website sources before skipping to the next URL
+TOTAL_TIMEOUT = 60  # Overall timeout for all operations
 MAX_CONTENT = 2000  # Number of words to add to LLM context for each search result
 LLM_MODEL = 'gpt-4o'  # 'gpt-4o'
 # -----------------------------------------------------------------------------
